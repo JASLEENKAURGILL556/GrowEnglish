@@ -4,7 +4,153 @@
     <head> 
         <title>Grow English </title>
         <link rel="stylesheet" text="type" href="stylesheet.css">
+        <style>
+            body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    background-color: rgb(0,106,121);
+    color:white;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px 50px ;
+    font-weight:bolder;
+    margin:0;
+    
+}
+ 
+                         
 
+#navbar{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+
+}
+#navbar ul{
+padding:0;
+list-style:none;
+
+}
+#navbar li {
+display: inline;
+
+}
+#navbar a{
+color:#fff;
+text-decoration: underline;
+font-size: 18px;
+padding-right:15px;
+
+
+}
+
+.containertwo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+font-weight: bolder;
+color:black;
+text-align: center;
+display: inline;
+}
+
+h3 {
+    background-color: rgb(0,106,121);
+    color:white;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+    font-weight:bolder;
+    margin:0;
+    font-stretch:80px 80px;
+    
+
+}
+
+#main-header {
+        float: left;
+        width:30%;
+        padding:0 30px;
+        box-sizing: border-box;
+        margin-right: 50px;
+        
+
+}
+#main{
+float: left;
+width:30%;
+padding:0 30px;
+box-sizing: border-box;
+margin-right: 50px;
+font-display:inline;
+
+}
+#siderbar{
+float: left;
+width: 20% ;
+background-color:#333;
+color: #fff;
+padding:50px;
+box-sizing: border-box;
+
+
+}
+
+#main-footer{
+background:#333;
+color:#fff;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+
+}
+
+@media(max-width:600px){
+#main{
+width:100%;
+float: none;
+}
+#main-header{
+    width:100%;
+    float:none;
+}
+
+#sidebar{
+width: 100%
+float:none;
+
+}
+
+#left {
+  float:left;
+  width:150%;
+
+}
+#center{
+ float:right;
+}
+ 
+    #main-footer{
+        background:#333;
+        color:#fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    
+    }    
+    
+
+    }
+    </style>
     </head>
     <body>
         <h1>Grow English</h1>
